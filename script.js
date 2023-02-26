@@ -29,7 +29,7 @@
     for (let i = parts.length - 1; i >= 0; --i) {
       const p = parts[i];
       const { x, y, vx, vy, s, image } = p;
-      p.vy += 0.01;
+      // p.vy += 0.01;
       p.x += vx;
       p.y += vy;
       p.s -= Math.random() * 0.01;
